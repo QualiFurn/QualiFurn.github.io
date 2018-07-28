@@ -9,8 +9,8 @@ html{
 body,html{
     width:100vw; 
     height:100vh;
-    background:url(../images/maintenance-background.jpg)no-repeat;
-    
+    background:rgb(5, 24, 77);
+    overflow-x:hidden;
     background-position:0% 9%;
     background-size: cover;
 
@@ -34,6 +34,7 @@ border-bottom:red solid 2px;
 .jumbotron h1{
     font-family:'Arial Narrow bold';
     color:#FB6504;
+    margin-top: 50px;
 }
 .jumbotron p{
     font-style: italic;
@@ -46,11 +47,12 @@ border-bottom:red solid 2px;
 #adress-bk
 {
 background:rgba(0,0,0,0.4);
+color:#fff;
 }
 #shop-container{
     width:100vw; 
     height:100vh;
-   background: url(./images/online-interior-design-service.jpg)no-repeat;
+   background: url(../images/online-interior-design-service.jpg)no-repeat;
    background-size: cover;
 }
 .card-img-top{
