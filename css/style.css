@@ -1,0 +1,69 @@
+.img-thumbnail{
+    border: 0px;
+    width: 20%;
+}
+html{
+    margin: 0;
+    padding:0;
+}
+body,html{
+    width:100vw; 
+    height:100vh;
+    background:url(../images/maintenance-background.jpg)no-repeat;
+    
+    background-position:0% 9%;
+    background-size: cover;
+
+}
+.nav-link{
+border-bottom:transparent solid 2px;
+
+}
+    
+.nav-link:hover{
+border-bottom:red solid 2px;
+}
+.navbar-brand img{
+    width: 10%;
+}
+@media screen and (max-width:700px)
+{
+    .navbar-brand img
+    {
+        display: none;
+    }
+}
+.jumbotron{
+    background: rgba(0,0,0,.2);
+    color:#fff;
+}
+.jumbotron h1{
+    font-family:'Arial Narrow bold';
+    color:#FB6504;
+}
+.jumbotron p{
+    font-style: italic;
+    margin-top: 60px;
+}
+.col-md-2 a img
+{
+    border-radius: 5px;
+}
+#adress-bk
+{
+background:rgba(0,0,0,0.4);
+}
+#shop-container{
+    width:100vw; 
+    height:100vh;
+   background: url(../images/online-interior-design-service.jpg)no-repeat;
+   background-size: cover;
+}
+.card-img-top{
+height: 20%;
+}
+#nav-container{
+    background: rgba(0,0,0,0.4);
+    position: fixed top;
+    top:10;
+}
