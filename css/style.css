@@ -26,13 +26,7 @@ border-bottom:red solid 2px;
 .navbar-brand img{
     width: 10%;
 }
-@media screen and (max-width:700px)
-{
-    .navbar-brand img
-    {
-        display: none;
-    }
-}
+
 .jumbotron{
     background: rgba(0,0,0,.2);
     color:#fff;
@@ -56,14 +50,14 @@ background:rgba(0,0,0,0.4);
 #shop-container{
     width:100vw; 
     height:100vh;
-   background: url(../images/online-interior-design-service.jpg)no-repeat;
+   background: url(./images/online-interior-design-service.jpg)no-repeat;
    background-size: cover;
 }
 .card-img-top{
 height: 20%;
 }
 #nav-container{
-    background: rgba(0,0,0,0.4);
+    background: rgba(0,0,0,1);
     position: fixed top;
     top:10;
 }
